@@ -1,0 +1,2 @@
+C:\Users\idan-\Projects\VisualStudio\TheClue\TheClueGame\Debug\TheClueGame.exe
+C:\Users\idan-\Projects\VisualStudio\TheClue\TheClueGame\Debug\TheClueGame.pdb
