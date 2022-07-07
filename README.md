@@ -1,5 +1,5 @@
 # ClueGame
-The classic board game Clue implemented in C++
+**The classic board game Clue implemented in C++**
 
 
 # Program description
