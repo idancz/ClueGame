@@ -13,7 +13,7 @@
 7. The game begins:
    - The board controls the characters, the rooms and the game flow for all players.
    - At each turn, a check that not everyone has lost yet is made (incorrect accusation leads to a loss).
-     the player's position is checked and then the player is given the option to choose a move according to his position.
+   - Also the player's position is checked and then the player is given the option to choose a move according to his position.
    - The player's options are:
      - Roll the dice
      - Accuse
@@ -23,7 +23,7 @@
      - S = down
      - D = right
      - A = left
-   - When a player is in a room he can make a suggestion about the murder (in the current room).
+   - When a player is in a room he can make a suggestion about the murder (in the current room),
      and if he is in a corner room he can use a secret passage.
      If the suggestion was correct the rest of the players will reveal one card from their pack, which will also be marked automatically in the evidence book. 
    - A win in the game is when a player makes a correct accusation.
