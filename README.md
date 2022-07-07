@@ -25,7 +25,7 @@
      - A = left
    - When a player is in a room he can make a suggestion about the murder (in the current room).
      and if he is in a corner room he can use a secret passage.
-     If the suggestion was correct the rest of the players will reveal one card from their pack, which will also be marked in the evidence book. 
+     If the suggestion was correct the rest of the players will reveal one card from their pack, which will also be marked automatically in the evidence book. 
    - A win in the game is when a player makes a correct accusation.
    - A loos in the game is when a player makes a wrong accusation.
    - Another option for ending the game is when all player have made a wrong accusation.
