@@ -71,38 +71,37 @@ bool Board::move_player(int idx)
 	{
 		m_players[idx]->m_flag = true;
 		char c;
-		cout << "Select movement direction:\nw = up\ns = down\nd = right\na = left\n";
-		cin >> c;												
+		cout << "Select movement direction:\nW = up\nS = down\nD = right\nA = left\n";
+		cin >> c;
 		if (!check_dest(c, idx))							  //check if the step valid
 		{
 			i--;
 			continue;
 		}
-		char symb = m_players[idx]->get_player_cr();		  
+		char symb = m_players[idx]->get_player_cr();
 		int row = m_players[idx]->get_position().get_x();
 		int col = m_players[idx]->get_position().get_y();
 		m_board[row][col] = '_';
-		switch (c)												//move player on board
-		{
-		case 'w':												//move up
+		//move player on board
+		if (c == 'w' || c == 'W') {												//move up
 			m_players[idx]->get_position().dec_m_x();
 			row = m_players[idx]->get_position().get_x();
-			break;
-		case 's':											   //move down
+		}
+		else if (c == 's' || c == 'S') {											   //move down
 			m_players[idx]->get_position().inc_m_x();
 			row = m_players[idx]->get_position().get_x();
-			break;
-		case 'a':											   //move left
+		}
+		else if (c == 'a' || c == 'A') {											   //move left
 			for (int i = 0; i < 4; i++)
 				m_players[idx]->get_position().dec_m_y();
 			col = m_players[idx]->get_position().get_y();
-			break;
-		case 'd':											   //move right
+		}
+		else if (c == 'd' || c == 'D') {											   //move right
 			for (int i = 0; i < 4; i++)
 				m_players[idx]->get_position().inc_m_y();
 			col = m_players[idx]->get_position().get_y();
-			break;
 		}
+	
 		m_board[row][col] = symb;							   //mark player char on board
 		print_board();
 		Point check = m_players[idx]->get_position();
@@ -172,13 +171,25 @@ bool Board::check_dest(char c, int idx)
 	case 'w':
 		row--;
 		break;
+	case 'W':
+		row--;
+		break;
 	case 's':
+		row++;
+		break;
+	case 'S':
 		row++;
 		break;
 	case 'a':
 		col -= 4;
 		break;
+	case 'A':
+		col -= 4;
+		break;
 	case 'd':
+		col += 4;
+		break;
+	case 'D':
 		col += 4;
 		break;
 	default:
