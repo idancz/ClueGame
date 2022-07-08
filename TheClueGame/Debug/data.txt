@@ -1,0 +1,77 @@
+ProfPlum dinning PipeWrench 
+3
+P 6
+study lounge conservatory billiard ball CandlStick 
+(3,65) 1
+|            |_S_|_P_|_M_|_G_|_R_|_O_|
+|Miss Scarlet|_V_|_X_|_X_|_X_|_X_|_X_|
+|Mrs Peacock |___|___|___|___|___|___|
+|Col Mustard |___|___|___|___|___|___|
+|Mr Green    |___|___|___|___|___|___|
+|Prof Plum   |___|___|___|___|___|___|
+|Dr Orchid   |___|___|___|___|___|___|
+|Hall        |___|___|___|___|___|___|
+|Study       |_X_|_V_|_X_|_X_|_X_|_X_|
+|Lounge      |_X_|_V_|_X_|_X_|_X_|_X_|
+|Dinning     |___|___|___|___|___|___|
+|Kitchen     |___|___|___|___|___|___|
+|Ball        |_X_|_V_|_X_|_X_|_X_|_X_|
+|Conservatory|_X_|_V_|_X_|_X_|_X_|_X_|
+|Billiard    |_X_|_V_|_X_|_X_|_X_|_X_|
+|Library     |___|___|___|___|___|___|
+|Candl Stick |_X_|_V_|_X_|_X_|_X_|_X_|
+|Knife       |___|___|___|___|___|___|
+|Lead Pipe   |___|___|___|___|___|___|
+|Gun         |___|___|___|___|___|___|
+|Rope        |_V_|_X_|_X_|_X_|_X_|_X_|
+|Pipe Wrench |___|___|___|___|___|___|
+S 6
+Rope LeadPipe hall ColMustard MissScarlet Gun 
+(5,18) 0
+|            |_S_|_P_|_M_|_G_|_R_|_O_|
+|Miss Scarlet|_V_|_X_|_X_|_X_|_X_|_X_|
+|Mrs Peacock |___|___|___|___|___|___|
+|Col Mustard |_V_|_X_|_X_|_X_|_X_|_X_|
+|Mr Green    |___|___|___|___|___|___|
+|Prof Plum   |___|___|___|___|___|___|
+|Dr Orchid   |___|___|___|___|___|___|
+|Hall        |_V_|_X_|_X_|_X_|_X_|_X_|
+|Study       |___|___|___|___|___|___|
+|Lounge      |___|___|___|___|___|___|
+|Dinning     |___|___|___|___|___|___|
+|Kitchen     |___|___|___|___|___|___|
+|Ball        |___|___|___|___|___|___|
+|Conservatory|___|___|___|___|___|___|
+|Billiard    |___|___|___|___|___|___|
+|Library     |___|___|___|___|___|___|
+|Candl Stick |___|___|___|___|___|___|
+|Knife       |___|___|___|___|___|___|
+|Lead Pipe   |_V_|_X_|_X_|_X_|_X_|_X_|
+|Gun         |_V_|_X_|_X_|_X_|_X_|_X_|
+|Rope        |_V_|_X_|_X_|_X_|_X_|_X_|
+|Pipe Wrench |___|___|___|___|___|___|
+M 6
+Library MrsPeacock DrOrchid kitchen Knife MrGreen 
+(17,74) 1
+|            |_S_|_P_|_M_|_G_|_R_|_O_|
+|Miss Scarlet|___|___|___|___|___|___|
+|Mrs Peacock |_X_|_X_|_V_|_X_|_X_|_X_|
+|Col Mustard |___|___|___|___|___|___|
+|Mr Green    |_X_|_X_|_V_|_X_|_X_|_X_|
+|Prof Plum   |_X_|_X_|___|___|___|___|
+|Dr Orchid   |_X_|_X_|_V_|_X_|_X_|_X_|
+|Hall        |___|___|___|___|___|___|
+|Study       |___|___|___|___|___|___|
+|Lounge      |___|___|___|___|___|___|
+|Dinning     |___|___|___|___|___|___|
+|Kitchen     |_X_|_X_|_V_|_X_|_X_|_X_|
+|Ball        |___|___|___|___|___|___|
+|Conservatory|___|___|___|___|___|___|
+|Billiard    |___|___|___|___|___|___|
+|Library     |_X_|_X_|_V_|_X_|_X_|_X_|
+|Candl Stick |___|___|___|___|___|___|
+|Knife       |_X_|_X_|_V_|_X_|_X_|_X_|
+|Lead Pipe   |___|___|___|___|___|___|
+|Gun         |___|___|___|___|___|___|
+|Rope        |___|___|___|___|___|___|
+|Pipe Wrench |_X_|_X_|___|___|___|___|
