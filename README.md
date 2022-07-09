@@ -2,7 +2,7 @@
 **The classic board game Clue implemented in C++**
 
 
-# Program description
+# Program Description
 ## Game Algorithm
 1. First the program creates the murder envelope and stores it in a hidden Vector.
 2. The number of players is determined by the user's choice between 3-6.
